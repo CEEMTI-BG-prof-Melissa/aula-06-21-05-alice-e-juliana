@@ -3,17 +3,30 @@
   <body>
     <h2>Formulário POST</h2>
  	 	<form action="/recebe.html" method="post">
- 	 	      Nome completo: <input type  ="text" maxlenght="50" id="nomecompleto" name="nomecompleto">
+			<!--Este é um campo para nome completo -->
+ 	 	      <label for"nomecompleto"> Nome completo: </label>
+			<br>
+			<input type  ="text" maxlenght="50" id="nomecompleto" name="nomecompleto">
 			<br><br>
-		      Senha: <input type="password" id="senha" name="senha">
+		      <label for"senha"> Senha: </label>
+			<br> 
+			<input type="password" id="senha" name="senha">
 		       <br><br>
-           	      Idade:<input type ="number" min="1" maxlenght="120" id="idade" name=idade">
+           	      <label for"idade"> Idade: </label>
+			<br>
+			<input type ="number" min="1" maxlenght="120" id="idade" name=idade">
          	      <br><br>
-		      E-mail:<input type ="email" id="email" name="email">
+		      <label for"email"> E-mail: </label>
+			<br>
+			<input type ="email" id="email" name="email">
 			<br><br>
-		     Data de nascimento:<input type ="date" min="1900/01/01" maxlenght="31/12/2024" id="datadenascimento" name="datadenascimento">
+		      <label for "datadenascimento"> Data de nascimento: </label>
+			<br>
+			<input type ="date" min="1900/01/01" maxlenght="31/12/2024" id="datadenascimento" name="datadenascimento">
 			<br><br>
-		     Mensagens de observações:<textarea rows="4" cols="40" id="mensagensdeobservações" name="mensagensdeobservações"></textarea> 
+		       <label for "mensagensdeobservações"> Mensagens de observações: </label>
+			<br>
+			<textarea rows="4" cols="40" id="mensagensdeobservações" name="mensagensdeobservações"></textarea> 
 			<br><br>
 		 	 <select> <option value="programação"> "programação" </option>
  	 	 	<option value="design"> "design"</option>
